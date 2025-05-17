@@ -1,0 +1,14 @@
+import { AuthProvider } from './contexts/AuthContext';
+import { ShipsProvider } from './contexts/ShipsContext';
+
+function App() {
+      return (
+            <AuthProvider>
+                  <ShipsProvider>
+                          {/* Your router and pages */}
+                                </ShipsProvider>
+                                    </AuthProvider>
+      );
+}
+      )
+}
