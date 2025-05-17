@@ -1,7 +1,9 @@
 {
     "name": "ship-dashboard",
       "version": "1.0.0",
-        "private": true,
+        "private": true, 
+         "main": "index.js",
+         "homepage": "./", 
           "dependencies": {
                 "react": "^18.2.0",
                     "react-dom": "^18.2.0",
